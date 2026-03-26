@@ -1,0 +1,43 @@
+input,
+.navigation.actions a,
+.actions a,
+.navigation.actions a:hover,
+.actions a:hover,
+input[type="submit"],
+input[type="submit"]:hover,
+a.advanced_skin_open,
+.current,
+.action,
+.action:hover,
+.notice,
+.actions input,
+#header .menu,
+#greeting .menu,
+button,
+.filters .indicator::before,
+.actions label,
+ul.notes,
+form ul.notes {
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.listbox .index,
+textarea,
+fieldset,
+form.verbose legend,
+.wrapper,
+dl,
+.secondary,
+#kudos_message,
+.toggled form,
+.dynamic form,
+span.question {
+  box-shadow: none !important;
+}
+
+#header .primary {
+  box-shadow: none;
+  background-image: none;
+}
