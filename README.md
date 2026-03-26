@@ -3,6 +3,7 @@
 Just various bits/bobs of CSS code that are useful to me and might be useful to others. So far, I have:
 1. **block-muted-user-banner.css** --> Get rid of the Muted User banner that shows up after you mute any amount of AO3 accounts
 2. **site-flattener.css** --> Get rid of box shadows, background images, and sometimes backgrounds and borders, to make AO3 look "flatter"
+3. **relationship-and-friendship-colors.css** --> make the relationship tags on AO3 fics different colors (separate colors for romantic/sexual and friendships)
 
 ## skins?
 Hopefully I'll have actual skins to share one day...

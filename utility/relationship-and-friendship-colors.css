@@ -1,0 +1,9 @@
+/** friendships **/
+li.relationships a[href*="*a*"] {
+  background: #8fce00; /** change hex code/color to whatever you want **/
+}
+
+/** romantic/sexual relationships **/
+li.relationships a[href*="*s*"] {
+  background: #ff819f; /** change hex code/color to whatever you want **/
+}
