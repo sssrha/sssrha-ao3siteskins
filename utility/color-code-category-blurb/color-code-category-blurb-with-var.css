@@ -1,0 +1,260 @@
+:root {
+  /** change gen colors here **/
+  --gen-blurb-bg: #b7e9c1;
+  --gen-relationship-bg: #50C878;
+  --gen-link-color: #013220;
+  --gen-visited: #355E3B;
+
+  /** change multi colors here **/
+  --multi-blurb-bg: #eae2d1;
+  --multi-relationship-bg: #DAA06D;
+  --multi-link-color: #3D0C02;
+  --multi-visited: #3D2B1F;
+
+  /** change slash colors here **/
+  --slash-blurb-bg: #d2e5f6;
+  --slash-relationship-bg: #6CB4EE;
+  --slash-link-color: #003262;
+  --slash-visited: #002147;
+
+  /** change het colors here **/
+  --het-blurb-bg: #f6cefc;
+  --het-relationship-bg: #D473D4;
+  --het-link-color: #32174D;
+  --het-visited: #702963;
+
+  /** change femslash colors here **/
+  --femslash-blurb-bg: #ffd1df;
+  --femslash-relationship-bg: #FF91AF;
+  --femslash-link-color: #470039;
+  --femslash-visited: #620034;
+
+  /** change other colors here **/
+  --other-blurb-bg: #d3d3d3;
+  --other-relationship-bg: #AFB1B8;
+  --other-link-color: #2A3439;
+  --other-visited: #555;
+
+  /** change none colors here **/
+  --none-blurb-bg: #F5F5F5;
+  --none-relationship-bg: #D1D1D1;    
+  --none-link-color: #2A3439;
+  --none-visited: #555;
+}
+
+/** gen fics **/
+
+.index li:has(span.category-gen) {
+  background-color: var(--gen-blurb-bg);
+}
+
+.index li:has(span.category-gen) .heading a:visited {
+  color: var(--gen-visited);
+}
+
+.index li:has(span.category-gen) li.relationships a {
+  background: var(--gen-relationship-bg);
+}
+
+.index li:has(span.category-gen) a.tag:hover {
+  background-color: var(--gen-link-color);
+  color: var(--gen-blurb-bg) !important;
+}
+
+.index li:has(span.category-gen) a {
+  color: var(--gen-link-color);
+}
+
+.index li:has(span.category-gen) .user {
+  border: 1px solid var(--gen-relationship-bg);
+}
+
+.index li:has(span.category-gen) .userstuff blockquote {
+  border-inline-start: 2px solid var(--gen-relationship-bg);
+}
+
+/** multi fics **/
+
+.index li:has(span.category-multi) {
+  background-color: var(--multi-blurb-bg);
+}
+
+.index li:has(span.category-multi) a {
+  color: var(--multi-link-color);
+}
+
+.index li:has(span.category-multi) li.relationships a {
+  background: var(--multi-relationship-bg);
+}
+
+.index li:has(span.category-multi) a.tag:hover {
+  background-color: var(--multi-link-color);
+  color: var(--multi-blurb-bg) !important;
+}
+
+.index li:has(span.category-multi) .heading a:visited {
+  color: var(--multi-visited);
+}
+
+.index li:has(span.category-multi) .user {
+  border: 1px solid var(--multi-relationship-bg);
+}
+
+.index li:has(span.category-multi) .userstuff blockquote {
+  border-inline-start: 2px solid var(--multi-relationship-bg);
+}
+
+/** slash fics **/
+
+.index li:has(span.category-slash) {
+  background-color: var(--slash-blurb-bg);
+}
+
+.index li:has(span.category-slash) li.relationships a {
+  background: var(--slash-relationship-bg);
+}
+
+.index li:has(span.category-slash) a.tag:hover {
+  background-color: var(--slash-link-color);
+  color: var(--slash-blurb-bg) !important;
+}
+
+.index li:has(span.category-slash) a {
+  color: var(--slash-link-color);
+}
+
+.index li:has(span.category-slash) .heading a:visited {
+  color: var(--slash-visited);
+}
+
+.index li:has(span.category-slash) .user {
+  border: 1px solid var(--slash-relationship-bg);
+}
+
+.index li:has(span.category-slash) .userstuff blockquote {
+  border-inline-start: 2px solid var(--slash-relationship-bg);
+}
+
+/** het fics **/
+
+.index li:has(span.category-het) {
+  background-color: var(--het-blurb-bg);
+}
+
+.index li:has(span.category-het) a {
+  color: var(--het-link-color);
+}
+
+.index li:has(span.category-het) li.relationships a {
+  background: var(--het-relationship-bg);
+}
+
+.index li:has(span.category-het) a.tag:hover {
+  background: var(--het-link-color);
+  color: var(--het-blurb-bg) !important;
+}
+
+.index li:has(span.category-het) .heading a:visited {
+  color: var(--het-visited);
+}
+
+.index li:has(span.category-het) .user {
+  border: 1px solid var(--het-relationship-bg);
+}
+
+.index li:has(span.category-het) .userstuff blockquote {
+  border-inline-start: 2px solid var(--het-relationship-bg);
+}
+
+/** femslash fics **/
+
+.index li:has(span.category-femslash) {
+  background-color: var(--femslash-blurb-bg);
+}
+
+.index li:has(span.category-femslash) a {
+  color: var(--femslash-link-color);
+}
+
+.index li:has(span.category-femslash) li.relationships a {
+  background: var(--femslash-relationship-bg);
+}
+
+.index li:has(span.category-femslash) a.tag:hover {
+  background-color: var(--femslash-link-color);
+  color: var(--femslash-blurb-bg) !important;
+}
+
+.index li:has(span.category-femslash) .heading a:visited {
+  color: var(--femslash-visited);
+}
+
+.index li:has(span.category-femslash) .user {
+  border: 1px solid var(--femslash-relationship-bg);
+}
+
+.index li:has(span.category-femslash) .userstuff blockquote {
+  border-inline-start: 2px solid var(--femslash-relationship-bg);
+}
+
+/** other fics **/
+
+.index li:has(span.category-other) {
+  background-color: var(--other-blurb-bg);
+}
+
+.index li:has(span.category-other) a {
+  color: var(--other-link-color);
+}
+
+.index li:has(span.category-other) li.relationships a {
+  background: var(--other-relationship-bg);
+}
+
+.index li:has(span.category-other) a.tag:hover {
+  background: var(--other-link-color);
+  color: var(--other-blurb-bg) !important;
+}
+
+.index li:has(span.category-other) .heading a:visited {
+  color: var(--other-visited);
+}
+
+.index li:has(span.category-other) .user {
+  border: 1px solid var(--other-relationship-bg);
+}
+
+.index li:has(span.category-other) .userstuff blockquote {
+  border-inline-start: 2px solid var(--other-relationship-bg);
+}
+
+/** none fics **/
+
+.index li:has(span.category-none) {
+  background-color: var(--none-blurb-bg);
+}
+
+.index li:has(span.category-none) a {
+  color: var(--none-link-color);
+}
+
+.index li:has(span.category-none) li.relationships a {
+  background: var(--none-relationship-bg);
+}
+
+.index li:has(span.category-none) a.tag:hover {
+  background: var(--none-link-color);
+  color: var(--none-blurb-bg) !important;
+}
+
+.index li:has(span.category-none) .heading a:visited {
+  color: var(--none-visited);
+}
+
+.index li:has(span.category-none) .user {
+  border: 1px solid var(--none-relationship-bg);
+}
+
+.index li:has(span.category-none) .userstuff blockquote {
+  border-inline-start: 2px solid var(--none-relationship-bg);
+}

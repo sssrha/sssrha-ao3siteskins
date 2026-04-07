@@ -1,0 +1,202 @@
+.index li:has(span.category-gen) {
+  background-color: #b7e9c1;
+}
+
+.index li:has(span.category-gen) .heading a:visited {
+  color: #355E3B;
+}
+
+.index li:has(span.category-gen) li.relationships a {
+  background: #50C878;
+}
+
+.index li:has(span.category-gen) a.tag:hover {
+  background-color: #013220;
+  color: #b7e9c1 !important;
+}
+
+.index li:has(span.category-gen) a {
+  color: #013220;
+}
+
+.index li:has(span.category-gen) .user {
+  border: 1px solid #50C878;
+}
+
+.index li:has(span.category-gen) .userstuff blockquote {
+  border-inline-start: 2px solid #50C878;
+}
+
+.index li:has(span.category-multi) {
+  background-color: #eae2d1;
+}
+
+.index li:has(span.category-multi) a {
+  color: #3D0C02;
+}
+
+.index li:has(span.category-multi) li.relationships a {
+  background: #DAA06D;
+}
+
+.index li:has(span.category-multi) a.tag:hover {
+  background-color: #3D0C02;
+  color: #eae2d1 !important;
+}
+
+.index li:has(span.category-multi) .heading a:visited {
+  color: #3D2B1F;
+}
+
+.index li:has(span.category-multi) .user {
+  border: 1px solid #DAA06D;
+}
+
+.index li:has(span.category-multi) .userstuff blockquote {
+  border-inline-start: 2px solid #DAA06D;
+}
+
+.index li:has(span.category-slash) {
+  background-color: #d2e5f6;
+}
+
+.index li:has(span.category-slash) li.relationships a {
+  background: #6CB4EE;
+}
+
+.index li:has(span.category-slash) a.tag:hover {
+  background-color: #003262;
+  color: #d2e5f6 !important;
+}
+
+.index li:has(span.category-slash) a {
+  color: #003262;
+}
+
+.index li:has(span.category-slash) .heading a:visited {
+  color: #002147;
+}
+
+.index li:has(span.category-slash) .user {
+  border: 1px solid #6CB4EE;
+}
+
+.index li:has(span.category-slash) .userstuff blockquote {
+  border-inline-start: 2px solid #6CB4EE;
+}
+
+.index li:has(span.category-het) {
+  background-color: #f6cefc;
+}
+
+.index li:has(span.category-het) a {
+  color: #32174D;
+}
+
+.index li:has(span.category-het) li.relationships a {
+  background: #D473D4;
+}
+
+.index li:has(span.category-het) a.tag:hover {
+  background: #32174D;
+  color: #f6cefc !important;
+}
+
+.index li:has(span.category-het) .heading a:visited {
+  color: #702963;
+}
+
+.index li:has(span.category-het) .user {
+  border: 1px solid #D473D4;
+}
+
+.index li:has(span.category-het) .userstuff blockquote {
+  border-inline-start: 2px solid #D473D4;
+}
+
+.index li:has(span.category-femslash) {
+  background-color: #ffd1df;
+}
+
+.index li:has(span.category-femslash) a {
+  color: #470039;
+}
+
+.index li:has(span.category-femslash) li.relationships a {
+  background: #FF91AF;
+}
+
+.index li:has(span.category-femslash) a.tag:hover {
+  background-color: #470039;
+  color: #ffd1df !important;
+}
+
+.index li:has(span.category-femslash) .heading a:visited {
+  color: #620034;
+}
+
+.index li:has(span.category-femslash) .user {
+  border: 1px solid #FF91AF;
+}
+
+.index li:has(span.category-femslash) .userstuff blockquote {
+  border-inline-start: 2px solid #FF91AF;
+}
+
+.index li:has(span.category-other) {
+  background-color: #d3d3d3;
+}
+
+.index li:has(span.category-other) a {
+  color: #2A3439;
+}
+
+.index li:has(span.category-other) li.relationships a {
+  background: #AFB1B8;
+}
+
+.index li:has(span.category-other) a.tag:hover {
+  background: #2A3439;
+  color: #d3d3d3 !important;
+}
+
+.index li:has(span.category-other) .heading a:visited {
+  color: #555;
+}
+
+.index li:has(span.category-other) .user {
+  border: 1px solid #AFB1B8;
+}
+
+.index li:has(span.category-other) .userstuff blockquote {
+  border-inline-start: 2px solid #AFB1B8;
+}
+
+.index li:has(span.category-none) {
+  background-color: #F5F5F5;
+}
+
+.index li:has(span.category-none) a {
+  color: #2A3439;
+}
+
+.index li:has(span.category-none) li.relationships a {
+  background: #D1D1D1;
+}
+
+.index li:has(span.category-none) a.tag:hover {
+  background: #2A3439;
+  color: #F5F5F5 !important;
+}
+
+.index li:has(span.category-none) .heading a:visited {
+  color: #555;
+}
+
+.index li:has(span.category-none) .user {
+  border: 1px solid #D1D1D1;
+}
+
+.index li:has(span.category-none) .userstuff blockquote {
+  border-inline-start: 2px solid #D1D1D1;
+}
