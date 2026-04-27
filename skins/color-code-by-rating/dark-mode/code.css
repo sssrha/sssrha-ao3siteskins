@@ -1,0 +1,628 @@
+.wrapper,
+#main li.blurb {
+  box-shadow: none;
+}
+
+ul.actions li a {
+  color: white !important;
+}
+
+ul.actions li a:hover {
+  color: #999 !important;
+}
+
+li.blurb p.notice {
+  font-style: italic;
+  text-align: center;
+  padding: 0.75em;
+}
+
+span.parent a {
+  padding: 0.25em 0.75em;
+  border-radius: 0.25em;
+}
+
+h4.heading.byline {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+}
+
+.index li:has(span.rating-general-audience),
+.work.meta.group:has(a[href="/tags/General%20Audiences/works"]),
+.index li:has(span.rating-general-audience) .own.user.module.group,
+li.blurb:has(span.rating-general-audience) #bookmark-form,
+li.blurb:has(span.rating-general-audience) form,
+li.blurb:has(span.rating-general-audience) ul.autocomplete,
+li.blurb:has(span.rating-general-audience) textarea,
+li.blurb:has(span.rating-general-audience) li input,
+li.blurb:has(span.rating-general-audience) dl,
+li.blurb:has(span.rating-general-audience) .user.short,
+li.blurb:has(span.rating-general-audience) .user.module.group {
+  background-color: #013220;
+}
+
+.index li:has(span.rating-general-audience) a,
+.work.meta.group:has(a[href="/tags/General%20Audiences/works"]) a,
+#main:has(a[href*="General%20Audiences"]) div.work a {
+  color: #CCFFCC;
+}
+
+.index li:has(span.rating-general-audience) li.relationships a,
+.work.meta.group:has(a[href="/tags/General%20Audiences/works"]) .relationship a {
+  background: #1E4D2B;
+}
+
+.index li:has(span.rating-general-audience) a:hover,
+.work.meta.group:has(a[href="/tags/General%20Audiences/works"]) a:hover,
+#main:has(a[href*="General%20Audiences"]) div.work a:hover {
+  background: #CCFFCC !important;
+  color: #013220 !important;
+}
+
+.index li:has(span.rating-general-audience) .heading a:visited {
+  color: #ACE1AF;
+}
+
+.index li:has(span.rating-general-audience) .actions a,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation a,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation input,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation button,
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#main"],
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#collection-form"],
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#bookmark-form"],
+#main:has(a[href*="General%20Audiences"]) .actions a[href*="/show_comments?"],
+#main:has(a[href*="General%20Audiences"]) .actions a[href*="/hide_comments?"],
+#main:has(a[href*="General%20Audiences"]) .actions input#kudo_submit,
+li.blurb:has(span.rating-general-audience) input[type="submit"],
+#main:has(a[href*="General%20Audiences"]) li a[href*="/chapters/"],
+#main:has(a[href*="General%20Audiences"]) .actions form[action*="/mark_as_read"] button {
+  background: #013220;
+  color: #CFC !important;
+  box-shadow: inset 0 -8px 4px #012417, inset 0 8px 7px #013d27;
+  text-shadow: none;
+  border-color: #001f14;
+}
+
+.index li:has(span.rating-general-audience) .actions a:hover,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation a:hover,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation input:hover,
+div.work:has(a[href="/tags/General%20Audiences/works"]) .navigation button:hover,
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#main"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#collection-form"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions a[href="#bookmark-form"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions a[href*="/show_comments?"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions a[href*="/hide_comments?"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions input#kudo_submit:hover,
+li.blurb:has(span.rating-general-audience) input[type="submit"]:hover,
+#main:has(a[href*="General%20Audiences"]) li.bychapter a:hover,
+#main:has(a[href*="General%20Audiences"]) li a[href*="#bookmark-form"]:hover,
+#main:has(a[href*="General%20Audiences"]) li#show_comments_link_top a:hover,
+#main:has(a[href*="General%20Audiences"]) li.share a:hover,
+#main:has(a[href*="General%20Audiences"]) .expandable.secondary a:hover,
+#main:has(a[href*="General%20Audiences"]) li.add a:hover,
+#main:has(a[href*="General%20Audiences"]) li.edit a:hover,
+#main:has(a[href*="General%20Audiences"]) li a[href*="?view_full_work=true"]:hover,
+#main:has(a[href*="General%20Audiences"]) li a[href*="/chapters/"]:hover,
+#main:has(a[href*="General%20Audiences"]) .actions form[action*="/mark_as_read"] button:hover,
+#main:has(a[href*="General%20Audiences"]) div.work a[href*="?style"]:hover {
+  background: #001f14 !important;
+  color: #CCFFCC !important;
+  box-shadow: none;
+}
+
+#main:has(a[href*="General%20Audiences"]) .pagination span.current {
+  background: #001f14 !important;
+  color: #CCFFCC !important;
+  box-shadow: none;
+  border-color: #001f14;
+}
+
+.index li:has(span.rating-general-audience) .user,
+li.blurb:has(span.rating-general-audience),
+.work.meta.group:has(a[href="/tags/General%20Audiences/works"]),
+li.blurb:has(span.rating-general-audience) textarea,
+li.blurb:has(span.rating-general-audience) li input {
+  border: 1px solid #1E4D2B !important;
+}
+
+.index li:has(span.rating-general-audience) .userstuff blockquote {
+  border-inline-start: 2px solid #1E4D2B !important;
+}
+
+li.blurb:has(span.rating-general-audience) .dynamic form {
+  border: 2px solid #1e4d2b !important;
+}
+
+#main:has(a[href*="General%20Audiences"]) #kudos_message,
+li.blurb:has(span.rating-general-audience) .caution,
+li.blurb:has(span.rating-general-audience) p.notice {
+  background: #013220;
+  color: #CCFFCC;
+  border-color: #CCFFCC;
+}
+
+div.work:has(a[href="/tags/General%20Audiences/works"]) *::selection,
+li.blurb:has(span.rating-general-audience) *::selection {
+  background: #96D294 !important;
+  color: #000 !important;
+}
+
+.index li:has(span.rating-teen),
+.work.meta.group:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]),
+.index li:has(span.rating-teen) .own.user.module.group,
+li.blurb:has(span.rating-teen) #bookmark-form,
+li.blurb:has(span.rating-teen) form,
+li.blurb:has(span.rating-teen) ul.autocomplete,
+li.blurb:has(span.rating-teen) textarea,
+li.blurb:has(span.rating-teen) li input,
+li.blurb:has(span.rating-teen) dl,
+li.blurb:has(span.rating-teen) .user.short,
+li.blurb:has(span.rating-teen) .user.module.group {
+  background-color: #3D2B1F;
+}
+
+.index li:has(span.rating-teen) a,
+.work.meta.group:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) a,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) div.work a {
+  color: #F3E5AB;
+}
+
+.index li:has(span.rating-teen) li.relationships a,
+.work.meta.group:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .relationship a {
+  background: #4C4212;
+}
+
+.index li:has(span.rating-teen) a:hover,
+.work.meta.group:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) div.work a:hover {
+  background: #F3E5AB !important;
+  color: #3D2B1F !important;
+}
+
+.index li:has(span.rating-teen) .heading a:visited {
+  color: #F8DE7E;
+}
+
+.index li:has(span.rating-teen) .actions a,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation a,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation input,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation button,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#main"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#collection-form"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#bookmark-form"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href*="/show_comments?"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href*="/hide_comments?"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions input#kudo_submit,
+li.blurb:has(span.rating-teen) input[type="submit"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li a[href*="/chapters/"],
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions form[action*="/mark_as_read"] button {
+  background: #3D2B1F;
+  border-color: #2C1F17;
+  color: #F3E5AB !important;
+  box-shadow: inset 0 -8px 4px #2C1F17, inset 0 8px 7px #4C3627;
+  text-shadow: none;
+}
+
+.index li:has(span.rating-teen) .actions a:hover,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation a:hover,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation input:hover,
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) .navigation button:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#main"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#collection-form"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href="#bookmark-form"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href*="/show_comments?"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions a[href*="/hide_comments?"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions input#kudo_submit:hover,
+li.blurb:has(span.rating-teen) input[type="submit"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li.bychapter a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li.bookmark a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li#show_comments_link_top a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li.share a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .expandable.secondary a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li.add a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li.edit a:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li a[href*="?view_full_work=true"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) li a[href*="/chapters/"]:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .actions form[action*="/mark_as_read"] button:hover,
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) div.work a[href*="?style"]:hover {
+  background: #2C1F17 !important;
+  color: #F3E5AB !important;
+  box-shadow: none;
+}
+
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) .pagination span.current {
+  background: #241912 !important;
+  color: #F3E5AB !important;
+  box-shadow: none;
+  border-color: #241912;
+}
+
+.index li:has(span.rating-teen) .user,
+li.blurb:has(span.rating-teen),
+.work.meta.group:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]),
+li.blurb:has(span.rating-teen) textarea,
+li.blurb:has(span.rating-teen) li input {
+  border: 1px solid #4C4212 !important;
+}
+
+.index li:has(span.rating-teen) .userstuff blockquote {
+  border-inline-start: 2px solid #4C4212 !important;
+}
+
+li.blurb:has(span.rating-teen) .dynamic form {
+  border: 2px solid #4C4212 !important;
+}
+
+#main:has(a[href*="Teen%20And%20Up%20Audiences"]) #kudos_message,
+li.blurb:has(span.rating-teen) .caution,
+li.blurb:has(span.rating-teen) p.notice {
+  background: #3D2B1F;
+  color: #F3E5AB;
+  border-color: #F3E5AB;
+}
+
+div.work:has(a[href="/tags/Teen%20And%20Up%20Audiences/works"]) *::selection,
+li.blurb:has(span.rating-teen) *::selection {
+  background: #E0D268 !important;
+  color: #000000 !important;
+}
+
+.index li:has(span.rating-mature),
+.work.meta.group:has(a[href="/tags/Mature/works"]),
+.index li:has(span.rating-mature) .own.user.module.group,
+li.blurb:has(span.rating-mature) #bookmark-form,
+li.blurb:has(span.rating-mature) form,
+li.blurb:has(span.rating-mature) ul.autocomplete,
+li.blurb:has(span.rating-mature) textarea,
+li.blurb:has(span.rating-mature) li input,
+li.blurb:has(span.rating-mature) dl,
+li.blurb:has(span.rating-mature) .user.short,
+li.blurb:has(span.rating-mature) .user.module.group {
+  background: #3A1915;
+}
+
+.index li:has(span.rating-mature) a,
+.work.meta.group:has(a[href="/tags/Mature/works"]) a,
+#main:has(a[href*="Mature"]) div.work a {
+  color: #FCDDC8;
+}
+
+.index li:has(span.rating-mature) li.relationships a,
+.work.meta.group:has(a[href="/tags/Mature/works"]) .relationship a {
+  background: #5E2A00;
+}
+
+.index li:has(span.rating-mature) a:hover,
+.work.meta.group:has(a[href="/tags/Mature/works"]) a:hover,
+#main:has(a[href*="Mature/works"]) div.work a:hover {
+  background: #FCDDC8 !important;
+  color: #3A1915 !important;
+}
+
+.index li:has(span.rating-mature) .heading a:visited {
+  color: #FFC5A8;
+}
+
+.index li:has(span.rating-mature) .actions a,
+div.work:has(a[href="/tags/Mature/works"]) .navigation a,
+div.work:has(a[href="/tags/Mature/works"]) .navigation input,
+div.work:has(a[href="/tags/Mature/works"]) .navigation button,
+#main:has(a[href*="Mature/works"]) .actions a[href="#main"],
+#main:has(a[href*="Mature/works"]) .actions a[href="#collection-form"],
+#main:has(a[href*="Mature/works"]) .actions a[href="#bookmark-form"],
+#main:has(a[href*="Mature/works"]) .actions a[href*="/show_comments?"],
+#main:has(a[href*="Mature/works"]) .actions a[href*="/hide_comments?"],
+#main:has(a[href*="Mature/works"]) .actions input#kudo_submit,
+li.blurb:has(span.rating-mature) input[type="submit"],
+#main:has(a[href*="Mature/works"]) li a[href*="/chapters/"],
+#main:has(a[href*="Mature/works"]) .actions form[action*="/mark_as_read"] button {
+  background: #3A1915;
+  color: #FCDDC8 !important;
+  box-shadow: inset 0 -8px 4px #2C1310, inset 0 8px 7px #461F1A;
+  border-color: #2C1310;
+  text-shadow: none;
+}
+
+.index li:has(span.rating-mature) .actions a:hover,
+div.work:has(a[href="/tags/Mature/works"]) .navigation a:hover,
+div.work:has(a[href="/tags/Mature/works"]) .navigation input:hover,
+div.work:has(a[href="/tags/Mature/works"]) .navigation button:hover,
+#main:has(a[href*="Mature/works"]) .actions a[href="#main"]:hover,
+#main:has(a[href*="Mature/works"]) .actions a[href="#collection-form"]:hover,
+#main:has(a[href*="Mature/works"]) .actions a[href="#bookmark-form"]:hover,
+#main:has(a[href*="Mature/works"]) .actions a[href*="/show_comments?"]:hover,
+#main:has(a[href*="Mature/works"]) .actions a[href*="/hide_comments?"]:hover,
+#main:has(a[href*="Mature/works"]) .actions input#kudo_submit:hover,
+li.blurb:has(span.rating-mature) input[type="submit"]:hover,
+#main:has(a[href*="Mature/works"]) li.bychapter a:hover,
+#main:has(a[href*="Mature/works"]) li.bookmark a:hover,
+#main:has(a[href*="Mature/works"]) li#show_comments_link_top a:hover,
+#main:has(a[href*="Mature/works"]) li.share a:hover,
+#main:has(a[href*="Mature/works"]) .expandable.secondary a:hover,
+#main:has(a[href*="Mature/works"]) li.add a:hover,
+#main:has(a[href*="Mature/works"]) li.edit a:hover,
+#main:has(a[href*="Mature/works"]) li a[href*="?view_full_work=true"]:hover,
+#main:has(a[href*="Mature/works"]) li a[href*="/chapters/"]:hover,
+#main:has(a[href*="Mature/works"]) .actions form[action*="/mark_as_read"] button:hover,
+#main:has(a[href*="Mature/works"]) div.work a[href*="?style"]:hover {
+  background: #2C1310 !important;
+  color: #FCDDC8 !important;
+  box-shadow: none;
+}
+
+#main:has(a[href*="Mature/works"]) .pagination span.current {
+  background: #2C1310 !important;
+  color: #FCDDC8 !important;
+  box-shadow: none;
+  border-color: #2C1310;
+}
+
+.index li:has(span.rating-mature) .user,
+li.blurb:has(span.rating-mature),
+.work.meta.group:has(a[href="/tags/Mature/works"]),
+li.blurb:has(span.rating-mature) textarea,
+li.blurb:has(span.rating-mature) li input {
+  border: 1px solid #5E2A00 !important;
+}
+
+.index li:has(span.rating-mature) .userstuff blockquote {
+  border-inline-start: 2px solid #5E2A00 !important;
+}
+
+li.blurb:has(span.rating-mature) .dynamic form {
+  border: 2px solid #5E2A00 !important;
+}
+
+#main:has(a[href*="Mature/works"]) #kudos_message,
+li.blurb:has(span.rating-mature) .caution,
+li.blurb:has(span.rating-mature) p.notice {
+  background: #3A1915;
+  color: #F3E5AB;
+  border-color: #F3E5AB;
+}
+
+div.work:has(a[href="/tags/Mature/works"]) *::selection,
+li.blurb:has(span.rating-mature) *::selection {
+  background: #EB9C5C !important;
+  color: #000 !important;
+}
+
+.index li:has(span.rating-explicit),
+.work.meta.group:has(a[href="/tags/Explicit/works"]),
+.index li:has(span.rating-explicit) .own.user.module.group,
+li.blurb:has(span.rating-explicit) #bookmark-form,
+li.blurb:has(span.rating-explicit) form,
+li.blurb:has(span.rating-explicit) ul.autocomplete,
+li.blurb:has(span.rating-explicit) textarea,
+li.blurb:has(span.rating-explicit) li input,
+li.blurb:has(span.rating-explicit) dl,
+li.blurb:has(span.rating-explicit) .user.short,
+li.blurb:has(span.rating-explicit) .user.module.group {
+  background: #370B02;
+}
+
+.index li:has(span.rating-explicit) a,
+.work.meta.group:has(a[href="/tags/Explicit/works"]) a,
+#main:has(a[href*="Explicit/works"]) div.work a {
+  color: #FDCBC4;
+}
+
+.index li:has(span.rating-explicit) li.relationships a,
+.work.meta.group:has(a[href="/tags/Explicit/works"]) .relationship a {
+  background: #600;
+}
+
+.index li:has(span.rating-explicit) a:hover,
+.work.meta.group:has(a[href="/tags/Explicit/works"]) a:hover,
+#main:has(a[href*="Explicit/works"]) div.work a:hover {
+  background: #FDCBC4 !important;
+  color: #370B02 !important;
+}
+
+.index li:has(span.rating-explicit) .heading a:visited {
+  color: #FBB8B1;
+}
+
+.index li:has(span.rating-explicit) .actions a,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation a,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation input,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation button,
+#main:has(a[href*="Explicit/works"]) .actions a[href="#main"],
+#main:has(a[href*="Explicit/works"]) .actions a[href="#collection-form"],
+#main:has(a[href="/tags/Explicit/works"]) .actions a[href="#bookmark-form"],
+#main:has(a[href*="Explicit/works"]) .actions a[href*="/show_comments?"],
+#main:has(a[href*="Explicit/works"]) .actions a[href*="/hide_comments?"],
+#main:has(a[href*="Explicit/works"]) .actions input#kudo_submit,
+li.blurb:has(span.rating-explicit) input[type="submit"],
+#main:has(a[href*="Explicit/works"]) li a[href*="/chapters/"],
+#main:has(a[href*="Explicit/works"]) .actions form[action*="/mark_as_read"] button {
+  background: #370B02;
+  color: #FDCBC4 !important;
+  box-shadow: inset 0 -8px 4px #2C0902, inset 0 8px 7px #460F03;
+  border-color: #2C0902;
+  text-shadow: none;
+}
+
+.index li:has(span.rating-explicit) .actions a:hover,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation a:hover,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation input:hover,
+div.work:has(a[href="/tags/Explicit/works"]) .navigation button:hover,
+#main:has(a[href*="Explicit/works"]) .actions a[href="#main"]:hover,
+#main:has(a[href*="Explicit/works"]) .actions a[href="#collection-form"]:hover,
+#main:has(a[href="/tags/Explicit/works"]) .actions a[href="#bookmark-form"]:hover,
+#main:has(a[href*="Explicit/works"]) .actions a[href*="/show_comments?"]:hover,
+#main:has(a[href*="Explicit/works"]) .actions a[href*="/hide_comments?"]:hover,
+#main:has(a[href*="Explicit/works"]) .actions input#kudo_submit:hover,
+li.blurb:has(span.rating-explicit) input[type="submit"]:hover,
+#main:has(a[href*="Explicit/works"]) li.bychapter a:hover,
+#main:has(a[href*="Explicit/works"]) li#show_comments_link_top a:hover,
+#main:has(a[href*="Explicit/works"]) li.share a:hover,
+#main:has(a[href*="Explicit/works"]) .expandable.secondary a:hover,
+#main:has(a[href*="Explicit/works"]) li.add a:hover,
+#main:has(a[href*="Explicit/works"]) li.edit a:hover,
+#main:has(a[href*="Explicit/works"]) li a[href*="?view_full_work=true"]:hover,
+#main:has(a[href*="Explicit/works"]) li a[href*="/chapters/"]:hover,
+#main:has(a[href*="Explicit/works"]) .actions form[action*="/mark_as_read"] button:hover,
+#main:has(a[href*="Explicit/works"]) div.work a[href*="?style"]:hover {
+  background: #2C0902 !important;
+  color: #FDCBC4 !important;
+  box-shadow: none;
+}
+
+#main:has(a[href*="Explicit/works"]) .pagination span.current {
+  background: #2C0902 !important;
+  color: #FDCBC4 !important;
+  box-shadow: none;
+  border-color: #2C0902;
+}
+
+.index li:has(span.rating-explicit) .user,
+li.blurb:has(span.rating-explicit),
+.work.meta.group:has(a[href="/tags/Explicit/works"]),
+li.blurb:has(span.rating-explicit) textarea,
+li.blurb:has(span.rating-explicit) li input {
+  border: 1px solid #600 !important;
+}
+
+.index li:has(span.rating-explicit) .userstuff blockquote {
+  border-inline-start: 2px solid #600 !important;
+}
+
+li.blurb:has(span.rating-explicit) .dynamic form {
+  border: 2px solid #600 !important;
+}
+
+#main:has(a[href*="Explicit/works"]) #kudos_message,
+li.blurb:has(span.rating-explicit) .caution,
+li.blurb:has(span.rating-explicit) p.notice {
+  background: #370B02;
+  color: #FDCBC4;
+  border-color: #FDCBC4;
+}
+
+div.work:has(a[href="/tags/Explicit/works"]) *::selection,
+li.blurb:has(span.rating-explicit) *::selection {
+  background: #CB4C4E !important;
+  color: #FFFFFF !important;
+}
+
+.index li:has(span.rating-notrated),
+.work.meta.group:has(a[href="/tags/Not%20Rated/works"]),
+.index li:has(span.rating-notrated) .own.user.module.group,
+li.blurb:has(span.rating-notrated) #bookmark-form,
+li.blurb:has(span.rating-notrated) form,
+li.blurb:has(span.rating-notrated) ul.autocomplete,
+li.blurb:has(span.rating-notrated) textarea,
+li.blurb:has(span.rating-notrated) li input,
+li.blurb:has(span.rating-notrated) dl,
+li.blurb:has(span.rating-notrated) .user.short,
+li.blurb:has(span.rating-notrated) .user.module.group {
+  background: #1B1B1B;
+}
+
+.index li:has(span.rating-notrated) a,
+.work.meta.group:has(a[href="/tags/Not%20Rated/works"]) a,
+#main:has(a[href*="Not%20Rated"]) div.work a {
+  color: #E5E4E2;
+}
+
+.index li:has(span.rating-notrated) li.relationships a,
+.work.meta.group:has(a[href="/tags/Not%20Rated/works"]) .relationship a {
+  background: #353839;
+}
+
+.index li:has(span.rating-notrated) a:hover,
+.work.meta.group:has(a[href="/tags/Not%20Rated/works"]) a:hover,
+#main:has(a[href*="Not%20Rated"]) div.work a:hover {
+  background: #E5E4E2 !important;
+  color: #1B1B1B !important;
+}
+
+.index li:has(span.rating-notrated) .heading a:visited {
+  color: #C0C0C0;
+}
+
+.index li:has(span.rating-notrated) .actions a,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation a,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation input,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation button,
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#main"],
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#collection-form"],
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#bookmark-form"],
+#main:has(a[href*="Not%20Rated"]) .actions a[href*="/show_comments?"],
+#main:has(a[href*="Not%20Rated"]) .actions a[href*="/hide_comments?"],
+#main:has(a[href*="Not%20Rated"]) .actions input#kudo_submit,
+li.blurb:has(span.rating-notrated) input[type="submit"],
+#main:has(a[href*="Not%20Rated"]) li a[href*="/chapters/"],
+#main:has(a[href*="Not%20Rated"]) .actions form[action*="/mark_as_read"] button {
+  background: #1B1B1B;
+  color: #E5E4E2 !important;
+  box-shadow: inset 0 -8px 4px #0E0E0E, inset 0 8px 7px #222;
+  border-color: #080808;
+  text-shadow: none;
+}
+
+.index li:has(span.rating-notrated) .actions a:hover,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation a:hover,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation input:hover,
+div.work:has(a[href="/tags/Not%20Rated/works"]) .navigation button:hover,
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#main"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#collection-form"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions a[href="#bookmark-form"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions a[href*="/show_comments?"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions a[href*="/hide_comments?"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions input#kudo_submit:hover,
+li.blurb:has(span.rating-notrated) input[type="submit"]:hover,
+#main:has(a[href*="Not%20Rated"]) li.bychapter a:hover,
+#main:has(a[href*="Not%20Rated"]) li.bookmark a:hover,
+#main:has(a[href*="Not%20Rated"]) li#show_comments_link_top a:hover,
+#main:has(a[href*="Not%20Rated"]) li.share a:hover,
+#main:has(a[href*="Not%20Rated"]) .expandable.secondary a:hover,
+#main:has(a[href*="Not%20Rated"]) li.add a:hover,
+#main:has(a[href*="Not%20Rated"]) li.edit a:hover,
+#main:has(a[href*="Not%20Rated"]) li a[href*="?view_full_work=true"]:hover,
+#main:has(a[href*="Not%20Rated"]) li a[href*="/chapters/"]:hover,
+#main:has(a[href*="Not%20Rated"]) .actions .button_to button:hover,
+#main:has(a[href*="Not%20Rated"]) .actions form[action*="/mark_as_read"] button:hover,
+#main:has(a[href*="Not%20Rated"]) div.work a[href*="?style"]:hover {
+  background: #080808 !important;
+  color: #E5E4E2 !important;
+  box-shadow: none;
+}
+
+#main:has(a[href*="Not%20Rated"]) .pagination span.current {
+  background: #080808 !important;
+  color: #E5E4E2 !important;
+  box-shadow: none;
+  border-color: #080808;
+}
+
+.index li:has(span.rating-notrated) .user,
+li.blurb:has(span.rating-notrated),
+.work.meta.group:has(a[href="/tags/Not%20Rated/works"]),
+li.blurb:has(span.rating-notrated) textarea,
+li.blurb:has(span.rating-notrated) li input {
+  border: 1px solid #353839 !important;
+}
+
+.index li:has(span.rating-notrated) .userstuff blockquote {
+  border-inline-start: 2px solid #353839 !important;
+}
+
+li.blurb:has(span.rating-notrated) .dynamic form {
+  border: 2px solid #353839 !important;
+}
+
+#main:has(a[href*="Not%20Rated"]) #kudos_message,
+li.blurb:has(span.rating-notrated) .caution,
+li.blurb:has(span.rating-notrated) p.notice {
+  background: #1B1B1B;
+  color: #E5E4E2;
+  border-color: #E5E4E2;
+}
+
+div.work:has(a[href="/tags/Not%20Rated/works"]) *::selection,
+li.blurb:has(span.rating-notrated) *::selection {
+  background: #A9A9A9 !important;
+  color: #000000 !important;
+}
